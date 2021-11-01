@@ -1,7 +1,7 @@
 {
   "name": "cra-templetize",
   "private": false,
-  "version": "1.0.1",
+  "version": "0.0.0",
   "description": "A simple and zero-opinion typescript starter template for building cross-platform command line applications.",
   "author": "Tiran Wijesekara <tiranuom@gmail.com>",
   "keywords": [
@@ -35,8 +35,5 @@
     "cli": "^1.0.1",
     "commander": "^8.0.0",
     "handlebars": "^4.7.7"
-  },
-  "publishConfig": {
-    "registry": "http://localhost:4873/"
   }
 }
