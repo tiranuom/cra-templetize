@@ -1,9 +1,9 @@
 {
-  "name": "typescript-cli-starter",
+  "name": "cra-templetize",
   "private": false,
   "version": "1.0.1",
   "description": "A simple and zero-opinion typescript starter template for building cross-platform command line applications.",
-  "author": "Khalid Zoabi <kzoabi@outlook.com>",
+  "author": "Tiran Wijesekara <tiranuom@gmail.com>",
   "keywords": [
     "typescript",
     "cli",
