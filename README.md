@@ -17,3 +17,24 @@ The template project will be created in `<target project directory>/cra-template
 
 ***This tool can be used in monorepo environments as a pre-build script, to generate a template from sample
 module.***
+
+## Configurations
+
+The template generation mechanism can be overridden by providing a configuration json file
+with following format
+
+```json
+{
+  "name": "<name of the template>",
+  "include": [
+    "<external files to be included in the template>"
+  ],
+  "exclude": [
+    "<file patterns to be excluded from template>"
+  ],
+  "readme": "<Readme file to be used as the template project readme>",
+  "keywords": ["<Additional keywords to be included in the template project>"],
+  "private": "<is template project private?>",
+  "description": "<description to be used in generated readme if readme is not overridden>"
+}
+```
